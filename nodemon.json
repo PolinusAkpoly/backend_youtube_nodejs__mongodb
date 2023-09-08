@@ -1,0 +1,12 @@
+{
+    "verbose": true,
+     "watch": [
+        "./*", 
+        ".env"
+     ],
+     "ignore":[
+        "./public"
+     ],
+      "ext": "js,json,mjs,yaml,yml",
+      "exec": "node ./bin/www"
+   }
